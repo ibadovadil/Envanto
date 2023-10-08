@@ -1,0 +1,102 @@
+body , *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width:100%;
+    height: 54px;
+    background-color:#262626;
+    position: fixed;
+    z-index: 1;
+}
+.navone{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.navone .logo{
+    width: 50%;
+    height: 100%;
+}
+.navone .logo img{
+    width: 152px;
+    height: 18px;
+    margin: 20px 0  0 20px;
+    background-color: wheat;
+    background: rgb(236,236,236);
+    background: linear-gradient(90deg, rgba(236,236,236,1) 4%, rgba(38,38,38,1) 68%);
+    border-radius: 5px;
+    padding: 3px;
+        
+}
+.navone .buy{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.navone .buy a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid #7AA93C;
+    padding: 7px 18px;
+    border-radius: 7px;
+    background-color: #7AA93C;
+}
+.navtwo{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.navtwo .option{
+    height: 100%;
+    width: 45%;
+}
+.navtwo .option a{
+    text-decoration: none;
+    font-size:36px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #0B52E4;
+    letter-spacing: -4px;
+    margin-top: 6px;
+    margin-left: 187px
+}
+.navtwo .list{
+    height: 100%;
+    width: 35%;
+}
+.navtwo .list ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.navtwo .list ul li{
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navtwo .list ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+.navtwo .other{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.navtwo .other .menu{
+    margin-left: 30px;
+} 

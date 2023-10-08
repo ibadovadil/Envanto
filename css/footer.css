@@ -1,0 +1,137 @@
+footer{
+    width: 100%;
+    height:600px;
+    background-color: rgb(40,46,58);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer .footerone{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerone .box1,.box2,.box3{
+    width: 270px;
+    height: 370px;
+}
+footer .footerone .box1{
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer .footerone .box1 *{
+    color: whitesmoke;
+}
+footer .footerone .box1 .option a{
+    text-decoration: none;
+    font-size:36px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: -4px;
+}
+footer .footerone .box1 P{
+    width: 250px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+footer .footerone .icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footerone .box2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+footer .footerone .box2 p{
+    color: #ffff;
+    margin-top: 23px;
+    font-size: 20px;
+}
+footer .footerone .box2 ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+footer .footerone .box2 ul li{
+    list-style-type: ">";
+    
+    color: #ffff;
+    margin-top: 20px;
+}
+footer .footerone .box2 ul hr{
+    margin-top: 10px;
+    color: grey;
+    opacity: 10%;
+    width: 90%;
+}
+.footerone .box3 .posts{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+footer .footerone .box3 p{
+    color: #ffff;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.footerone .box3 .post1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerone .box3 .post1 .text{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.footerone .box3 .post1 .text h4{
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 15px;
+}
+    
+footer .footertwo{
+    width: 75%;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid grey;
+}
+footer .footertwo span{
+    width: 55%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+}
+footer .footertwo .list{
+    width: 45%;
+    height: 100%;
+}
+footer .footertwo .list ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer .footertwo .list ul li{
+    list-style: none;
+}
+footer .footertwo .list ul li a{
+    color: white;
+    text-decoration: none;
+}
